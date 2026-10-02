@@ -24,7 +24,7 @@ PASS
 - Claude plugin validation: PASS (`claude plugin validate --strict`, run locally and in GitHub Actions)
 - CI: PASS (latest run on main)
 - Runtime load: PASS. Claude Code started with `--plugin-dir` recognized the plugin at 1.0.0, registered agency-account-manager:account-operations, reported no plugin errors, and loaded no plugin-provided MCP servers.
-- Representative invocation: PASS. Fictional weekly account review (stalled approval, out-of-scope request, sponsor change, 60-day renewal). Produced a deliverables, approvals, scope change brief, risks, unsent client follow-up drafts, renewal signals, and open decisions. Kept proposed and approved scope separate and invented no ROI. The run used one model turn with no tools enabled, and no missing-file or MCP errors occurred.
+- Representative invocation: PASS. Fictional weekly account review (stalled approval, out-of-scope request, sponsor change, 60-day renewal). Produced a review covering deliverables, approvals, a scope change brief, risks, unsent client follow-up drafts, renewal signals, and open decisions. Kept proposed and approved scope separate and invented no ROI. The run used one model turn with no tools enabled, and no missing-file or MCP errors occurred.
 - Unload/reload: Unload PASS: the plugin and skill were absent when Claude Code started without `--plugin-dir`. Reload: each separate start with `--plugin-dir` loaded cleanly; the interactive /reload-plugins command was not exercised.
 
 ## Safety
