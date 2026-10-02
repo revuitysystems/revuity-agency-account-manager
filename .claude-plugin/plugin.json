@@ -16,5 +16,6 @@
     "operations",
     "revuity"
   ],
-  "repository": "https://github.com/revuitysystems/revuity-agency-account-manager"
+  "repository": "https://github.com/revuitysystems/revuity-agency-account-manager",
+  "icon": "./assets/icon.png"
 }
