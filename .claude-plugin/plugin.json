@@ -1,0 +1,20 @@
+{
+  "name": "agency-account-manager",
+  "version": "1.0.0",
+  "description": "Agency account-management workflow support for client meetings, deliverables, approvals, scope, follow-up, risks, renewals, and account reviews.",
+  "author": {
+    "name": "Revuity Systems",
+    "email": "info@revuitysystems.com",
+    "url": "https://revuitysystems.com"
+  },
+  "homepage": "https://revuitysystems.com",
+  "license": "MIT",
+  "keywords": [
+    "agency",
+    "account-management",
+    "client-success",
+    "operations",
+    "revuity"
+  ],
+  "repository": "https://github.com/revuitysystems/revuity-agency-account-manager"
+}
