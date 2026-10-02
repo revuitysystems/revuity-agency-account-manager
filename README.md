@@ -2,7 +2,7 @@
 
 **A free Claude workflow plugin by [Revuity Systems](https://revuitysystems.com).**
 
-<img src="assets/icon-256.png" alt="Agency Account Manager plugin icon" width="128" height="128">
+![Agency Account Manager plugin icon](assets/icon-128.png)
 
 A free Claude plugin for keeping client-service work moving across meetings, commitments, deliverables, approvals, scope, risks, follow-up, and renewals. It is built for agencies, consultancies, studios, and other client-service teams that want a clearer operating rhythm around client accounts.
 
@@ -13,7 +13,7 @@ A free Claude plugin for keeping client-service work moving across meetings, com
 
 ## Plugin icon
 
-The icon is stored at `assets/icon.png`, with 512, 256, and 128 pixel versions alongside it. The manifest references it with the `icon` field, which Anthropic's directory reads for the plugin listing and Claude Code ignores at load time.
+The plugin icon ships in the assets folder in 512, 256, and 128 pixel versions. The manifest references it with the icon field, which Anthropic's directory reads for the plugin listing and Claude Code ignores at load time.
 
 ## Good for
 

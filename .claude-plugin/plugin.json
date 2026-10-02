@@ -1,5 +1,6 @@
 {
   "name": "agency-account-manager",
+  "displayName": "Agency Account Manager",
   "version": "1.0.0",
   "description": "Agency account-management workflow support for client meetings, deliverables, approvals, scope, follow-up, risks, renewals, and account reviews.",
   "author": {
